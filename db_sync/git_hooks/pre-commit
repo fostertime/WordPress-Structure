@@ -1,0 +1,3 @@
+#!/bin/bash
+wp db export --tables=wp_options db_sync/db_sync.sql
+git add db_sync/db_sync.sql

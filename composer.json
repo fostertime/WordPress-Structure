@@ -1,0 +1,50 @@
+{
+  "repositories": [
+  {
+    "type": "package",
+    "package": {
+        "name": "wordpress",
+        "type": "webroot",
+        "version": "4.1.1",
+        "dist": {
+            "type": "zip",
+            "url": "https://github.com/WordPress/WordPress/archive/4.1.1.zip"
+        },
+        "require" : {
+          "fancyguy/webroot-installer": "1.*"
+        }
+    }
+  },
+  {
+    "type": "package",
+    "package": {
+        "name": "advanced-custom-fields-pro",
+        "type": "wordpress-plugin",
+        "version": "5.2.2",
+        "dist": {
+            "type": "zip",
+            "url": "http://connect.advancedcustomfields.com/index.php?p=pro&a=download&k="
+        },
+        "require" : {
+            "composer/installers": "~1.0"
+        }
+    }
+  }
+  ],
+  "require": {
+    "composer/installers": "~1.0",
+    "wordpress": "4.1.1",
+    "fancyguy/webroot-installer": "1.0.0",
+    "vlucas/phpdotenv": "~1.0.9",
+    "advanced-custom-fields-pro": "5.2.2"
+  },
+  "extra": {
+    "webroot-dir": "wp",
+    "webroot-package": "wordpress",
+    "installer-paths": {
+        "app/plugins/{$name}/": ["type:wordpress-plugin"],
+        "app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+        "app/themes/{$name}/": ["type:wordpress-theme"]
+    }
+  }
+}

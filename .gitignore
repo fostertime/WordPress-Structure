@@ -1,0 +1,11 @@
+.DS_Store
+.env
+#.htaccess
+#wp-cli.yml
+/.idea
+#/app/plugins
+#/app/upgrade
+#/app/uploads
+#/shared
+/vendor
+/wp

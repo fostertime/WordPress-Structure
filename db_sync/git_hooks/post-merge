@@ -1,0 +1,2 @@
+#!/bin/bash
+wp db import db_sync/db_sync.sql
