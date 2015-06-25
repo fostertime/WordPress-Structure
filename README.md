@@ -17,7 +17,7 @@ A basic WordPress Git repository layout...a mash-up of different git projects, s
 6. Run the WordPress installer as you normally would in your browser by visiting your localhost url.
 7. Login to the WordPress Admin `http://{project_url}/wp/wp-admin/`.
 
-# Database Sync Setup (not required)
+## Database Sync Setup (not required)
 1. WordPress Database Sync via Git Hooks and WP-CLI 
     * In the `/db_sync/git_hooks/` directory of the repo, move `pre-commit` and `post-merge` files to `/path/to/your/repo/.git/hooks/` directory
     * Edit `pre-commit` to include the WordPress tables you want to include in the sync, you could also easily modify this to include file uploads. 
