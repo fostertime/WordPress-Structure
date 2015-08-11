@@ -51,14 +51,7 @@ define('WPLANG', '');
 /**
  * Authentication Unique Keys and Salts
  */
-define('AUTH_KEY',         getenv('AUTH_KEY') ? getenv('AUTH_KEY')                  : 'set this in your .env settings' );
-define('SECURE_AUTH_KEY',  getenv('SECURE_AUTH_KEY') ? getenv('SECURE_AUTH_KEY')    : 'set this in your .env settings' );
-define('LOGGED_IN_KEY',    getenv('LOGGED_IN_KEY') ? getenv('LOGGED_IN_KEY')        : 'set this in your .env settings' );
-define('NONCE_KEY',        getenv('NONCE_KEY') ? getenv('NONCE_KEY')                : 'set this in your .env settings' );
-define('AUTH_SALT',        getenv('AUTH_SALT') ? getenv('AUTH_SALT')                : 'set this in your .env settings' );
-define('SECURE_AUTH_SALT', getenv('SECURE_AUTH_SALT') ? getenv('SECURE_AUTH_SALT')  : 'set this in your .env settings' );
-define('LOGGED_IN_SALT',   getenv('LOGGED_IN_SALT') ? getenv('LOGGED_IN_SALT')      : 'set this in your .env settings' );
-define('NONCE_SALT',       getenv('NONCE_SALT') ? getenv('NONCE_SALT')              : 'set this in your .env settings' );
+getenv('KEYS_SALTS');
 
 /**
  * Custom Settings

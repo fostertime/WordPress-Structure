@@ -1,4 +1,4 @@
 <?php
-// WordPress view bootstrapper
+// Bootstrap WordPress
 define( 'WP_USE_THEMES', true );
 require( dirname( __FILE__ ) . '/wp/wp-blog-header.php' );

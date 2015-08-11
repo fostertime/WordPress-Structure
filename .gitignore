@@ -3,9 +3,9 @@
 .htaccess
 wp-cli.yml
 /.idea
-/app/plugins
-/app/upgrade
+#/app/plugins
+#/app/upgrade
 /app/uploads
-/shared
+#/shared
 /vendor
 /wp
