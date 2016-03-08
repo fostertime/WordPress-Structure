@@ -20,7 +20,7 @@
     "package": {
         "name": "advanced-custom-fields-pro",
         "type": "wordpress-plugin",
-        "version": "5.3.1",
+        "version": "5.3.5",
         "dist": {
             "type": "zip",
             "url": "http://connect.advancedcustomfields.com/index.php?p=pro&a=download&k="
@@ -36,7 +36,7 @@
     "wordpress": "4.4.2",
     "fancyguy/webroot-installer": "1.0.0",
     "vlucas/phpdotenv": "~2.0.1",
-    "advanced-custom-fields-pro": "5.3.1"
+    "advanced-custom-fields-pro": "5.3.5"
   },
   "extra": {
     "webroot-dir": "wp",
