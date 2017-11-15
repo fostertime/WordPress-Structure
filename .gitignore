@@ -1,9 +1,23 @@
-.DS_Store
+# Application
+app/plugins/*
+app/mu-plugins/*/
+app/upgrade
+app/uploads
+
+# WordPress
+!/.htaccess
+wp
+shared
+
+# Dotenv
 .env
-/.idea
-/app/plugins
-/app/upgrade
-/app/uploads
-/shared
-/vendor
-/wp
+.env.*
+!.env.sample
+
+# Composer
+vendor/*
+
+# Local & IDE
+.DS_Store
+.idea
+
